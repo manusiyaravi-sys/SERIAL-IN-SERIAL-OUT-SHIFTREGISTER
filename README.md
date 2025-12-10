@@ -10,7 +10,21 @@ Quartus prime
 
 **THEORY**
 ~~~
-A Serial-In Serial-Out (SISO) shift register is a sequential logic circuit that accepts data one bit at a time and produces the output also one bit at a time. It consists of a series of flip-flops connected in a chain, where the output of one flip-flop acts as the input to the next. On every clock pulse, the data bit shifts from one stage to the next stage. The first bit entered will be the first bit to come out after passing through all the flip-flops. SISO registers are mainly used for temporary data storage, data transfer, and time-delay operations in digital systems. The output depends on the clock pulses, making it a synchronous circuit.
+A Serial-In Serial-Out (SISO) shift register is a sequential logic circuit that accepts data one bit at a time.
+
+The output is also produced one bit at a time, in a serial manner.
+
+It consists of a series of flip-flops connected in a chain.
+
+The output of each flip-flop becomes the input to the next flip-flop in the sequence.
+
+On every clock pulse, the data bit shifts from one flip-flop to the next.
+
+The first bit entered will be the first bit to appear at the output after moving through all stages.
+
+SISO registers are used for temporary data storage, data transfer, and time-delay applications.
+
+Since the shifting depends on clock pulses, it operates as a synchronous circuit.
 ~~~
 **SISO shift Register**
 
