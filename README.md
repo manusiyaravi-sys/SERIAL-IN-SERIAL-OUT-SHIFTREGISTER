@@ -60,7 +60,9 @@ q[3] <= q[2];
 end
 endmodule
 ~~~
+~~~
 Developed by:MANUSIYA R RegisterNumber: 25016729
+~~~
 **RTL LOGIC FOR SISO Shift Register**
 <img width="2537" height="1351" alt="ex10(1)" src="https://github.com/user-attachments/assets/ccf460e8-5015-4e33-82ad-8058d8df0fb1" />
 
